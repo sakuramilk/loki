@@ -1,7 +1,7 @@
 all: loki_patch loki_flash
 
 clean:
-	rm -fr *.o loki_flash loki_patch out *~
+	rm -fr *.o loki_flash loki_patch *~
 
 loki_patch: loki_patch.o
 	$(CC) -O0 -Wall -o $@ $^
