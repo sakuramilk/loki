@@ -1,0 +1,4 @@
+*.o
+loki_patch
+loki_flash
+out
