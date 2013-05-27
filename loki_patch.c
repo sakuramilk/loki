@@ -56,6 +56,12 @@ struct target {
 
 struct target targets[] = {
 	{
+		.vendor = "docomo",
+		.build = "JDQ39.SC04EOMUAMDI",
+		.check_sigs = 0x88e0fcd8,
+		.hdr = 0,
+	},
+	{
 		.vendor = "AT&T",
 		.build = "JDQ39.I337UCUAMDB or JDQ39.I337UCUAMDL",
 		.check_sigs = 0x88e0ff98,
